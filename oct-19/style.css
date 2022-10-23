@@ -22,14 +22,13 @@ table ,th,td{
     color: rgb(39, 187, 237);
 }
 
-.petinfo form{
+.petinfo form input{
   
-  width: 200px;
-  display: flex;
-  flex-direction: column;
+   margin-left: 40px;
   
 }
 
 .petinfo form [type="submit"]{
-    margin-top: 10px;
+    margin-top: 20px;
+    width: 100px;
 }

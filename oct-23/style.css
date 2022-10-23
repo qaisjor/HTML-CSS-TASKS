@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(245, 245, 156);
+}
+
+.container {
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgb(247, 247, 181);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.container p span {
+    background-color: orange;
+}
+.container p span:last-child{
+    background-color:  rgb(216, 216, 17);
+}
+
+.main .container:last-child {
+    color: red;
+}
+.main .container:last-child p {
+    border: 1px dotted red;
+}
+
+
+
+/* task2 */
+
+/* .left{
+    float: left;
+    
+} */
+
+.right{
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.oColor{
+    color: orange;
+}
+
+/* task4 */
+
+.main  div{
+    display: inline;
+    background-color: red;
+    padding: 5px 30px;
+    color: white;
+}
+
+.main  div:nth-child(even){
+    display: none;
+}
